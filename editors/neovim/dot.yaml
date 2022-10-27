@@ -1,9 +1,0 @@
-windows:
-  links:
-    init.lua: ~\AppData\Local\nvim\init.lua
-    lua: ~\AppData\Local\nvim\lua
-
-linux|darwin:
-  links:
-    init.lua: ~/.config/nvim/init.lua
-    lua: ~/.config/nvim/lua

@@ -1,0 +1,5 @@
+windows:
+  links:
+    capsctrl.ahk: ~\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\capsctrl.ahk
+    quaketerminal.ahk: ~\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\quaketerminal.ahk
+  installs: winget install -e --id Lexikos.AutoHotkey

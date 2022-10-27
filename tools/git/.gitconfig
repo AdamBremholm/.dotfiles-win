@@ -2,8 +2,8 @@
 	helper = manager
 
 [user]
-	name = Paul Volavsek
-	email = paul.volavsek@gmail.com
+	name = Adam Bremholm
+	email = adam.bremholm@gmail.com
 
 [core]
 	excludefile = ~/.gitignore
