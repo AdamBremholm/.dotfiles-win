@@ -1,5 +1,5 @@
 global:
-  installs: false
+  installs: true
 
 windows:
   links:
