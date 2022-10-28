@@ -1,41 +1,36 @@
 {
     "$help": "https://aka.ms/terminal-documentation",
     "$schema": "https://aka.ms/terminal-profiles-schema",
-    "actions": 
-    [
-        {
-            "command": "unbound",
-            "keys": "ctrl+tab"
-        }
-    ],
+    "actions": [],
     "copyFormatting": "none",
     "copyOnSelect": false,
-    "defaultProfile": "{5d369640-c8c2-41b8-83a8-f6232414478c}",
-    "profiles": 
-    {
-        "defaults": 
-        {
-            "background": "#282828",
+    "defaultProfile": "{2c4de342-38b7-51cf-b940-2309a097f518}",
+    "profiles": {
+        "defaults": {
+            "colorScheme": "Tokyo Night",
             "cursorShape": "filledBox",
-            "font": 
-            {
-                "face": "FiraCode NF"
+            "font": {
+                "face": "FiraCode Nerd Font Mono"
             }
         },
-        "list": 
-        [
+        "list": [
             {
-                "commandline": "wsl ~",
-                "guid": "{07b52e3e-de2c-5db4-bd2d-ba144ed6c273}",
+                "guid": "{2c4de342-38b7-51cf-b940-2309a097f518}",
                 "hidden": false,
-                "name": "Ubuntu-21.04",
-                "source": "Windows.Terminal.Wsl"
+                "name": "Ubuntu",
+                "source": "Windows.Terminal.Wsl",
+                "startingDirectory": "/home/adam"
             },
             {
                 "guid": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
                 "hidden": false,
-                "name": "Power Shell Core",
+                "name": "PowerShell",
                 "source": "Windows.Terminal.PowershellCore"
+            },
+            {
+                "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+                "hidden": false,
+                "name": "Windows PowerShell"
             },
             {
                 "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
@@ -49,47 +44,14 @@
                 "source": "Windows.Terminal.Azure"
             },
             {
-                "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
-                "hidden": true,
-                "name": "Windows PowerShell"
-            },
-            {
-                "guid": "{3ddc4463-6e58-59fc-a14c-ffe42ecbea42}",
+                "guid": "{574374f5-dba0-527d-9bf3-30a20db194de}",
                 "hidden": false,
-                "name": "Ubuntu-21.04",
-                "source": "Windows.Terminal.Wsl"
-            },
-            {
-                "colorScheme": "Tokyo Night",
-                "commandline": "wsl -d Ubuntu-20.04",
-                "guid": "{5d369640-c8c2-41b8-83a8-f6232414478c}",
-                "icon": "ms-appx:///ProfileIcons/{9acb9455-ca41-5af7-950f-6bca1bc9722f}.png",
-                "name": "Ubuntu-22.04",
-                "startingDirectory": "/home/adam",
-                "tabTitle": "Ubuntu-22.04",
-                "useAcrylic": false
-            },
-            {
-                "guid": "{a9d1125a-161b-5a5a-9e6a-2eace78ebf38}",
-                "hidden": false,
-                "name": "Developer Command Prompt for VS 2022 [Preview]",
-                "source": "Windows.Terminal.VisualStudio"
-            },
-            {
-                "guid": "{7f326156-e2fe-5fdf-9527-d5dca8b0f331}",
-                "hidden": false,
-                "name": "Developer PowerShell for VS 2022 [Preview]",
-                "source": "Windows.Terminal.VisualStudio"
-            },
-            {
-                "guid": "{1fa89856-8b64-5905-9dd0-a12ee80759c8}",
-                "hidden": true,
                 "name": "Developer Command Prompt for VS 2022",
                 "source": "Windows.Terminal.VisualStudio"
             },
             {
-                "guid": "{8810298b-7a7e-592e-b5b0-4ffce3f0b1ae}",
-                "hidden": true,
+                "guid": "{b8484ab4-de54-5bd6-bafd-ecd3d18f144e}",
+                "hidden": false,
                 "name": "Developer PowerShell for VS 2022",
                 "source": "Windows.Terminal.VisualStudio"
             },
@@ -98,23 +60,10 @@
                 "hidden": true,
                 "name": "Visual Studio Debug Console",
                 "source": "VSDebugConsole"
-            },
-            {
-                "guid": "{3589f146-7a69-5fd5-acca-1aef9972a21f}",
-                "hidden": false,
-                "name": "Developer Command Prompt for VS 2022",
-                "source": "Windows.Terminal.VisualStudio"
-            },
-            {
-                "guid": "{4bd941ae-1e48-560f-9c4f-a8200af13765}",
-                "hidden": false,
-                "name": "Developer PowerShell for VS 2022",
-                "source": "Windows.Terminal.VisualStudio"
             }
         ]
     },
-    "schemes": 
-    [
+    "schemes": [
         {
             "background": "#0C0C0C",
             "black": "#0C0C0C",
